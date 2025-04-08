@@ -98,7 +98,7 @@ def update_graph(type):
     return{
         'data': [go.Bar(x=pbar['detected_state'], y=pbar['count'])],
         'layout': go.Layout(
-            title=' Kaido's State-wise Case Count',
+            title=' Kaidos State-wise Case Count',
             xaxis_title='State',
             yaxis_title='Number of Cases',
             plot_bgcolor='#f8f9fa'
