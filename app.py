@@ -84,7 +84,7 @@ app.layout = html.Div([
             ], className='card')
         ], className='col-md-12')
     ], className='row')
-], className='container')
+], style={'backgroundColor': '#000'}, className='container')
 
 
 @app.callback(Output('bar', 'figure'), [Input('picker', 'value')])
